@@ -63,7 +63,10 @@ export default {
 <style lang="scss" scoped>
 @import '../assets/styles/_colors';
 .signup{
-    background: $primary-color;
+     background: linear-gradient(rgba(4,9,30,.9), rgba(4,9,30,.9)), url('../assets/images/manager2.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
     height: 100vh;
     display: flex;
     justify-content: center;

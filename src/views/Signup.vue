@@ -166,13 +166,16 @@ export default {
 <style lang="scss" scoped>
 @import '../assets/styles/_colors';
 .signup{
-    background: $primary-color;
+    background: linear-gradient(rgba(4,9,30,.9), rgba(4,9,30,.9)), url('../assets/images/manager2.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
     // height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     .form__wrapper{
-        background: #fff;
+        background: rgba(0,0,0,.3);
         border-radius: 4px;
         padding: 2rem;
         margin: 4rem 1rem;
@@ -180,13 +183,13 @@ export default {
          max-width: 100%;
          h4{
                 font-weight: bold;
-                color: #000;
+                color: #fff;
                 padding-top: 1rem;
                 text-transform: uppercase;
             }
             p{
                 padding-bottom: 1rem;
-                color: #627081;
+                color: #fff;
                 font-size: .9rem;
             }
         form{
@@ -198,12 +201,20 @@ export default {
                 &::placeholder{
                     text-transform: uppercase;
                     font-size: .7rem;
-                    color: #627081;
+                    color: #000;
+                    font-weight: bold;
                 }
                  .small{
                 color: #000 !important;
                 font-weight: bold !important;
             }
+            }
+            .form-text{
+                color: #fff !important;
+                font-size: .9rem;
+                padding-bottom: .4rem;
+                text-transform: capitalize;
+                opacity: .8;
             }
              .loader{
                 max-width: 250px;
