@@ -15,7 +15,7 @@
                    <input type="tel" class="form-control" placeholder="Phone Number" v-model="phone">
                </div>
                <div class="form-group">
-                      <small id="passwordHelpBlock" class="form-text text-muted">Select your account type</small>
+                      <small id="passwordHelpBlock" class="form-text text-muted">Select your Amount</small>
                   <select class="form-control" id="inlineFormCustomSelect" v-model="account_type">
                             <option value="10,000">&#8358;10,000 to &#8358;15,000</option>
                             <option value="20,000">&#8358;20,000 to &#8358;30,000</option>
