@@ -58,7 +58,7 @@
               <div class="col-md-1"></div>
              <div class="col-md-5">
                   <p><i class="fa fa-check-circle"></i>&nbsp;&nbsp; Extracting raw materials and Gold</p>
-                  <p><i class="fa fa-check-circle"></i>&nbsp;&nbsp; AND getting back our investments in 4 days and that enable us pay investors in 5 days without any delay or stress in cash out</p>
+                  <p><i class="fa fa-check-circle"></i>&nbsp;&nbsp; AND getting back our investments in 3 days and that enable us pay investors in 4 days without any delay or stress in cash out</p>
               </div>
           </div>
       </div>
