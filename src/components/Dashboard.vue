@@ -67,6 +67,26 @@
                          <h5>&#8358; {{ available_balance }}</h5>
                      </div>
                   </div>
+                   <div class="summary__card two pt-4">
+                     <!-- <i class="fa fa-home"></i> -->
+                     <div class="content pl-4">
+                         <!-- <h6>Bank Accounts</h6> -->
+                         <h6>Bank Name: {{ bank_name}}</h6>
+                         <hr>
+                         <h6>Account Number:  {{ account_number }}</h6>
+                         <h6>Account Name:  {{ account_name }}</h6>
+                     </div>
+                  </div>
+                   <div class="summary__card four pt-4">
+                     <!-- <i class="fa fa-home"></i> -->
+                     <div class="content pl-2">
+                         <!-- <h6>Bank Accounts</h6> -->
+                         <h6>Bitcoin Payment</h6>
+                         <hr>
+                         <h6>Wallet Address: {{ wallet_address }}</h6>
+                         <!-- <h6>Account Name:  Usuoyibo Achilles Ewomamena</h6> -->
+                     </div>
+                  </div>
                     <!-- <div class="summary__card three pt-4">
                      <i class="fa fa-cubes"></i>
                      <div class="content pl-4">
@@ -104,7 +124,11 @@ export default {
             account_type:null,
             id:null,
             available_balance:null,
-            verifyuser:null
+            verifyuser:null,
+            bank_name: null,
+            account_number:null,
+            account_name:null,
+            wallet_address:null
         }
     },
     computed:{
@@ -147,6 +171,10 @@ export default {
                 this.account_type = doc.data().account_type,
                 this.verifyuser = doc.data().verifyuser
                 this.id = doc.data().user_id
+                this.bank_name = doc.data().bank_name
+                this.account_number = doc.data().account_number
+                this.account_name = doc.data().account_name
+                this.wallet_address = doc.data().wallet_address
             })
         })
     }
