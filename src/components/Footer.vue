@@ -14,7 +14,7 @@
                  <h6><i class="fa fa-envelope"></i>Email Address</h6>
                 <p>ultimateinvestors4@gmail.com</p>
                  <h6><i class="fa fa-phone"></i>Phone</h6>
-                <p><a href="tel:08070964131"> 08070964131</a></p>
+                <p><a href="tel:08154021422"> 08154021422</a></p>
               </div>
               <div class="col-md-4">
                   <h5>Payment Method</h5>
