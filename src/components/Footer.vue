@@ -12,7 +12,7 @@
                 <h6><i class="fa fa-home"></i> Head Office</h6>
                 <p>NO.16 Alabarao Market, Badagry Express Way, Okokomaiko,Lagos State, Nigeria.</p>
                  <h6><i class="fa fa-envelope"></i>Email Address</h6>
-                <p>genesisinvestments270@gmail.com</p>
+                <p>ultimateinvestors4@gmail.com</p>
                  <h6><i class="fa fa-phone"></i>Phone</h6>
                 <p><a href="tel:08070964131"> 08070964131</a></p>
               </div>
@@ -29,7 +29,7 @@
           <div class="container">
               <div class="row">
                   <div class="col-12">
-                      <p>Genesis Investment Nigeria Limited &copy; All Right Reserved, 2020</p>
+                      <p>Ultimate Investtors Company &copy; All Right Reserved, 2020</p>
                   </div>
               </div>
           </div>

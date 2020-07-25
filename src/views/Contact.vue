@@ -18,7 +18,7 @@
                         <div class="icon__wrapper">
                                 <p><i class="fa fa-envelope"></i></p>
                         </div>
-                        <p class="pl-3"> genesisinvestments270@gmail.com</p>
+                        <p class="pl-3"> ultimateinvestors4@gmail.com</p>
                     </div>
                   </div><br>
                    <div class="col-md-4">
@@ -26,7 +26,7 @@
                         <div class="icon__wrapper">
                             <p><i class="fa fa-phone"></i></p>
                         </div>
-                        <p class="pl-3">08070964131</p>
+                        <p class="pl-3">08154021422</p>
                     </div>
                   </div><br>
                    <div class="col-md-4">

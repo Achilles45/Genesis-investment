@@ -17,22 +17,20 @@
                <div class="form-group">
                       <small id="passwordHelpBlock" class="form-text text-muted">Select your Amount</small>
                   <select class="form-control" id="inlineFormCustomSelect" v-model="account_type">
-                            <option value="10,000">&#8358;10,000 to &#8358;15,000</option>
-                            <option value="20,000">&#8358;20,000 to &#8358;30,000</option>
-                            <option value="30,000">&#8358;30,000 to &#8358;45,000</option>
-                            <option value="40,000">&#8358;40,000 to &#8358;60,000</option>
-                            <option value="50,000">&#8358;50,000 to &#8358;75,000</option>
-                            <option value="60,000">&#8358;60,000 to &#8358;90,000</option>
-                            <option value="70,000">&#8358;70,000 to &#8358;105,000</option>
-                            <option value="80,000">&#8358;80,000 to &#8358;120,000</option>
-                            <option value="90,000">&#8358;90,000 to &#8358;135,000</option>
-                            <option value="100,000">&#8358;100,000 to &#8358;150,000</option> 
-                            <option value="200,000">&#8358;200,000 to &#8358;300,000</option> 
-                            <option value="300,000">&#8358;300,000 to &#8358;450,000</option> 
-                            <option value="400,000">&#8358;400,000 to &#8358;600,000</option> 
-                            <option value="500,000">&#8358;500,000 to &#8358;750,000</option> 
-                            <option value="600,000">&#8358;600,000 to &#8358;900,000</option> 
-                            <option value="700,000">&#8358;700,000 to &#8358;1,050,000</option> 
+                            <option value="10,000 initial">&#8358;10,000 to &#8358;18,000</option>
+                            <option value="20,000 initial">&#8358;20,000 to &#8358;36,000</option>
+                            <option value="30,000 initial">&#8358;30,000 to &#8358;54,000</option>
+                            <option value="40,000 initial">&#8358;40,000 to &#8358;72,000</option>
+                            <option value="50,000 initial">&#8358;50,000 to &#8358;90,000</option>
+                            <option value="60,000 initial">&#8358;60,000 to &#8358;108,000</option>
+                            <option value="70,000 initial">&#8358;70,000 to &#8358;126,000</option>
+                            <option value="80,000 initial">&#8358;80,000 to &#8358;144,000</option>
+                            <option value="90,000 initial">&#8358;90,000 to &#8358;162,000</option>
+                            <option value="100,000 initial">&#8358;100,000 to &#8358;180,000</option> 
+                            <option value="200,000 initial">&#8358;200,000 to &#8358;360,000</option> 
+                            <option value="300,000 initial">&#8358;300,000 to &#8358;540,000</option> 
+                            <option value="400,000 initial">&#8358;400,000 to &#8358;720,000</option> 
+                            <option value="500,000 initial">&#8358;500,000 to &#8358;900,000</option> 
                              <option value="50,000 promo">&#8358;50,000 to &#8358;150,000 (Promo plan)</option>
                             <option value="100,000 promo">&#8358;100,000 to &#8358;300,000 (Promo plan)</option>
                             <option value="200,000 promo">&#8358;200,000 to &#8358;600,000 (Promo plan)</option>
@@ -137,7 +135,7 @@ export default {
                 this.loading = true
                 firebase.auth().createUserWithEmailAndPassword(this.email, this.password)
                 .then((cred)=>{
-                     db.collection('users').add({
+                     db.collection('users').doc(this.email).set({
                         name:this.name,
                         phone:this.phone,
                         email:this.email,

@@ -5,16 +5,16 @@
           <div class="col-md-1"></div>
           <!-- <div class="col-md-1"></div> -->
           <div class="col-md-10 text-center">
-              <h2>Genesis <span class="orange">Investment Company</span></h2>
+              <h2>Ultimate Investors <span class="orange">Company</span></h2>
               <hr>
-              <p>Genesis Investment Nigeria Ltd is an indigenous company with experts for sustainability in business practices. We have vested interests in Distributions of creal marketing, deals, currency trading and other profitable ways to make interest.
-            Genesis Investment Nigeria Ltd is an online and offline network marketing organization and is born out of the need to build up people financially. We are passionate about empowering people and liberating them from poverty to enable them meet their financial freedom with our proven system.
+              <p>Ultimate Investors Company  is an indigenous company with experts for sustainability in business practices. We have vested interests in Distributions of creal marketing, deals, currency trading and other profitable ways to make interest.
+            Ultimate Investors Company is an online and offline network marketing organization and is born out of the need to build up people financially. We are passionate about empowering people and liberating them from poverty to enable them meet their financial freedom with our proven system.
 
             We offer the best way that is Madeline easy to deposit money into your Wallets!
 
-            Invest your money today and get 50% interest within 4 days using our investment programme. Buy and Sell Bitcoin with the leading bitcoin exchange provider, we also grant load to our customers who have successfully crossed their top up level which is 50k.
+            Invest your money today and get 80% interest within 4 days using our investment programme. Buy and Sell Bitcoin with the leading bitcoin exchange provider, we also grant load to our customers who have successfully crossed their top up level which is 50k.
 
-            TAKE NOTE! GENESIS INVESTMENT PROGRAMME SUPPORTS 100% INVESTMENT RECOMMITMENT POLICY FOR ALL NEW MEMBERS.</p>
+            TAKE NOTE! ULTIMATE INVESTORS COMPANY PROGRAMME SUPPORTS 100% INVESTMENT RECOMMITMENT POLICY FOR ALL NEW MEMBERS.</p>
                <router-link to="/signup" class="intro-btn animated zoomIn animate3d">Get Started <i class="fas fa-long-arrow-alt-right"></i> </router-link>
           </div>
           <div class="col-md-1"></div>

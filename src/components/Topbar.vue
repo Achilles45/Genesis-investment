@@ -3,10 +3,10 @@
       <div class="container">
         <div class="row">
             <div class="col-md-3">
-                 <i class="fa fa-phone"></i>&nbsp;&nbsp; 08070964131&nbsp;  (Mon - Fri, 9am to 4pm)
+                 <i class="fa fa-phone"></i>&nbsp;&nbsp; 08154021422&nbsp;  (Mon - Fri, 9am to 4pm)
             </div>
             <div class="col-md-3">
-                 <i class="fa fa-envelope"></i>&nbsp;&nbsp; genesisinvestments270@gmail.com
+                 <i class="fa fa-envelope"></i>&nbsp;&nbsp; ultimateinvestors4@gmail.com
             </div>
             <div class="col-md-6">
                 <i class="fa fa-cubes"></i>&nbsp;&nbsp; Note that Terms and conditions applies to all investment plans
